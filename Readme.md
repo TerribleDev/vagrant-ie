@@ -1,4 +1,4 @@
-This is a folder structure which includes vagrant files for IE9+ on every platform it is offered..
+This is a folder structure which includes vagrant files for major versions of IE.
 
 ## How to use?
 
