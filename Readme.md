@@ -10,14 +10,21 @@ choco install vagrant -y
 
 ```
 
-cd to `	virtualbox/$ieVersion/win$Version`
+cd to the root of the git repo
 
-and then run `vagrant up` the box image will be downloaded from the cloud (if its not already) and then the vm will be booted in virtualbox. Username and password both vagrant
+you can then run `vagrant up IE10-Win7`
 
-for example if you want IE10 on windows 7 you would cd to virtualbox/ie10/win7 and then run vagrant init
+you can also launch multiple versions `vagrant up edge-Win10 IE10-Win7 IE10-Win8 IE9-Win7`
 
-```
-cd virtualbox/ie10/win7
-vagrant init
+Avalible Machines:
 
-```
+* IE10-Win7
+* IE10-Win8
+* IE11-Win7
+* IE11-Win8.1
+* IE8-Win7
+* IE9-Win7
+* edge-Win10
+
+
+Inspired by [another project](https://github.com/markhuber/modern-ie-vagrant) but uses boxes in the regular vagrant cloud.
