@@ -4,7 +4,7 @@ boxes = [
   {:name => "IE11-Win7", :box => "modernIE/w7-ie11"},
   {:name => "IE11-Win8.1", :box => "modernIE/w8.1-ie11"},
   {:name => "IE8-Win7", :box => "modernIE/w7-ie8"},
-  {:name => "IE9-Win7", :box => "modernIE/w7-ie9"}
+  {:name => "IE9-Win7", :box => "modernIE/w7-ie9"},
   {:name => "edge-Win10", :box => "Microsoft/EdgeOnWindows10"}
 ]
 
