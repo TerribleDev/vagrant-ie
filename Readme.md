@@ -34,6 +34,3 @@ Avalible Machines:
 * IE8-Win7
 * IE9-Win7
 * edge-Win10
-
-
-Inspired by [another project](https://github.com/markhuber/modern-ie-vagrant) but uses boxes in the regular vagrant cloud.
