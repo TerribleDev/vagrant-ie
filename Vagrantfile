@@ -1,11 +1,11 @@
 boxes = [
-  {:name => "IE10-Win7", :box => "modernIE/w7-ie10"},
-  {:name => "IE10-Win8", :box => "modernIE/w8-ie10"},
-  {:name => "IE11-Win7", :box => "modernIE/w7-ie11"},
-  {:name => "IE11-Win8.1", :box => "modernIE/w8.1-ie11"},
-  {:name => "IE8-Win7", :box => "modernIE/w7-ie8"},
-  {:name => "IE9-Win7", :box => "modernIE/w7-ie9"},
-  {:name => "edge-Win10", :box => "Microsoft/EdgeOnWindows10"}
+  {:name => "IE10-Win7", :box => "http://aka.ms/ie10.win7.vagrant"},
+  {:name => "IE10-Win8", :box => "http://aka.ms/ie10.win8.vagrant"},
+  {:name => "IE11-Win7", :box => "http://aka.ms/ie11.win7.vagrant"},
+  {:name => "IE11-Win8.1", :box => "http://aka.ms/ie11.win81.vagrant"},
+  {:name => "IE8-Win7", :box => "http://aka.ms/ie8.win7.vagrant"},
+  {:name => "IE9-Win7", :box => "http://aka.ms/ie9.win7.vagrant"},
+  {:name => "edge-Win10", :box => "http://aka.ms/msedge.win10.vagrant"}
 ]
 
 Vagrant.configure(2) do |config|

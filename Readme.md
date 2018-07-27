@@ -4,10 +4,19 @@ This is a folder structure which includes vagrant files for major versions of IE
 
 Install vagrant and virtual box if you do not already have it. (note: hyper-v does not like virtualbox disable the hyper-v service if you want both installed).
 
+Windows:
+
 ```
 choco install virtualbox -y
 choco install vagrant -y
 
+```
+
+Macos:
+
+```
+brew cask install virtualbox
+brew cask install vagrant
 ```
 
 cd to the root of the git repo
